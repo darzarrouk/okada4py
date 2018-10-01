@@ -6,11 +6,12 @@
 // #include "f2c.h"
 typedef double doublereal;
 typedef long int integer;
-#define abs(x) ((x) >= 0 ? (x) : -(x))
+//#define abs(x) ((x) >= 0 ? (x) : -(x))
 
 #include <stdio.h>
 #include <math.h>
-
+#include <cmath>
+using std::abs;
 
 /* Common Block Declarations */
 
