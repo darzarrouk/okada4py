@@ -4,5 +4,7 @@ Made by Romain Jolivet
 **Installation**
 
 I. export CC=gcc
+
 II. python setup.py build
+
 III. python setup.py install --user
